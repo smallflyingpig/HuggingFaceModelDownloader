@@ -22,14 +22,14 @@ import (
 )
 
 const (
-	AgreementModelURL      = "https://huggingface.co/%s"
-	AgreementDatasetURL    = "https://huggingface.co/datasets/%s"
-	RawModelFileURL        = "https://huggingface.co/%s/raw/%s/%s"
-	RawDatasetFileURL      = "https://huggingface.co/datasets/%s/raw/%s/%s"
-	LfsModelResolverURL    = "https://huggingface.co/%s/resolve/%s/%s"
-	LfsDatasetResolverURL  = "https://huggingface.co/datasets/%s/resolve/%s/%s"
-	JsonModelsFileTreeURL  = "https://huggingface.co/api/models/%s/tree/%s/%s"
-	JsonDatasetFileTreeURL = "https://huggingface.co/api/datasets/%s/tree/%s/%s"
+	AgreementModelURL      = "https://hf-mirror.com/%s"
+	AgreementDatasetURL    = "https://hf-mirror.com/datasets/%s"
+	RawModelFileURL        = "https://hf-mirror.com/%s/raw/%s/%s"
+	RawDatasetFileURL      = "https://hf-mirror.com/datasets/%s/raw/%s/%s"
+	LfsModelResolverURL    = "https://hf-mirror.com/%s/resolve/%s/%s"
+	LfsDatasetResolverURL  = "https://hf-mirror.com/datasets/%s/resolve/%s/%s"
+	JsonModelsFileTreeURL  = "https://hf-mirror.com/api/models/%s/tree/%s/%s"
+	JsonDatasetFileTreeURL = "https://hf-mirror.com/api/datasets/%s/tree/%s/%s"
 )
 
 // I may use this coloring thing later on
